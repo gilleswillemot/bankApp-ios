@@ -1,0 +1,4 @@
+
+target 'bankApp' do
+  pod 'BankImplProviderSpec', :path => '/Users/gilleswillemot/.cocoapods/repos/BankImplProviderSpec'
+end
