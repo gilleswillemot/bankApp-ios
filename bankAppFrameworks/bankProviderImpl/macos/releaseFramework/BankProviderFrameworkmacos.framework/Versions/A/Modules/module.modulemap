@@ -1,0 +1,6 @@
+framework module BankProviderFrameworkmacos {
+    umbrella header "BankProviderFrameworkmacos.h"
+
+    export *
+    module * { export * }
+}

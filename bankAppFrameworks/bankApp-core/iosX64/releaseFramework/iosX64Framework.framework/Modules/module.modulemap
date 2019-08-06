@@ -1,0 +1,6 @@
+framework module iosX64Framework {
+    umbrella header "iosX64Framework.h"
+
+    export *
+    module * { export * }
+}

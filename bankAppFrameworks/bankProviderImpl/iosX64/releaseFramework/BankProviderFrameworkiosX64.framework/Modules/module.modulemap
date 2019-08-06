@@ -1,0 +1,6 @@
+framework module BankProviderFrameworkiosX64 {
+    umbrella header "BankProviderFrameworkiosX64.h"
+
+    export *
+    module * { export * }
+}
