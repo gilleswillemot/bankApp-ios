@@ -1,0 +1,6 @@
+framework module bankApp_coremacosFramework {
+    umbrella header "bankApp_coremacosFramework.h"
+
+    export *
+    module * { export * }
+}

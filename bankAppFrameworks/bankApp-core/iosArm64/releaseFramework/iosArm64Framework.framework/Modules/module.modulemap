@@ -1,6 +1,0 @@
-framework module iosArm64Framework {
-    umbrella header "iosArm64Framework.h"
-
-    export *
-    module * { export * }
-}

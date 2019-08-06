@@ -1,6 +1,0 @@
-framework module macosFramework {
-    umbrella header "macosFramework.h"
-
-    export *
-    module * { export * }
-}

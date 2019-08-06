@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import BankProviderFrameworkiosX64
+import bankApp_coreiosX64Framework
 
 class BankTableViewController: UITableViewController {
+    
+    var bankProvider: BankProvider
+    var bank: Bank = Bank()
+    bank.
 
     let list = ["test", "test2"]
     
