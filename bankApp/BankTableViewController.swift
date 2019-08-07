@@ -11,8 +11,6 @@ import BankProviderFrameworkiosX64
 
 class BankTableViewController: UITableViewController {
     
-    let list = ["test", "test2"]
-    
     var bankProvider: BankProvider = BankProvider()
 //    var bank: Bank = Bank()
     
@@ -24,6 +22,9 @@ class BankTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        // banks is immutable, we should implement an attribute 'banks: List<Bank>' in BankProvider.
+//        bankProvider.getBanks() = [Bank(name: "test"), Bank(name: "test2")]
     }
 
     // MARK: - Table view data source
@@ -35,7 +36,7 @@ class BankTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return list.count + 1
+        return bankProvider.getBanks().count + 1
     }
 
     
