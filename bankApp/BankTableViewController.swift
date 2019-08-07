@@ -8,15 +8,13 @@
 
 import UIKit
 import BankProviderFrameworkiosX64
-import bankApp_coreiosX64Framework
 
 class BankTableViewController: UITableViewController {
     
-    var bankProvider: BankProvider
-    var bank: Bank = Bank()
-    bank.
-
     let list = ["test", "test2"]
+    
+    var bankProvider: BankProvider = BankProvider()
+//    var bank: Bank = Bank()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,7 +51,9 @@ class BankTableViewController: UITableViewController {
             let cell = tableView.dequeueReusableCell(withIdentifier: "bankCell", for: indexPath)
             
             // Configure the cell...
-            cell.textLabel?.text = list[indexPath.row - 1]
+            let bank = bankProvider.getBanks()[indexPath.row - 1]
+            
+            cell.textLabel?.text = bank.name //list[indexPath.row - 1]
             
             return cell
         }
