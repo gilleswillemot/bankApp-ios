@@ -11,7 +11,7 @@ import BankProviderFrameworkiosX64
 
 class BankTableViewController: UITableViewController {
     
-    var bankProvider: BankProvider = BankProvider()
+    var bankProvider: IBankProvider = BankProvider()
 //    var bank: Bank = Bank()
     
     override func viewDidLoad() {
