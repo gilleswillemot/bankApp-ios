@@ -14,8 +14,8 @@
 		B5713DE122845601004F6E86 /* bankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5713DE022845601004F6E86 /* bankAppTests.swift */; };
 		B5713DEC22845601004F6E86 /* bankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5713DEB22845601004F6E86 /* bankAppUITests.swift */; };
 		B5713DFA228456A4004F6E86 /* BankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5713DF9228456A4004F6E86 /* BankTableViewController.swift */; };
-		BD03360122F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD03360022F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework */; };
-		BD03360222F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD03360022F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD29B26A230487B800EFAB04 /* BankProviderFrameworkiosX64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD29B269230487B800EFAB04 /* BankProviderFrameworkiosX64.framework */; };
+		BD29B26B230487B800EFAB04 /* BankProviderFrameworkiosX64.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD29B269230487B800EFAB04 /* BankProviderFrameworkiosX64.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BD0335FF22F9A1520010CC1E /* Embed Frameworks */ = {
+		BD29B26C230487B800EFAB04 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BD03360222F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework in Embed Frameworks */,
+				BD29B26B230487B800EFAB04 /* BankProviderFrameworkiosX64.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +65,7 @@
 		B5713DF9228456A4004F6E86 /* BankTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTableViewController.swift; sourceTree = "<group>"; };
 		BD0335FC22F9A1520010CC1E /* iosX64Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iosX64Framework.framework; path = "bankAppFrameworks/bankApp-core/iosX64/debugFramework/iosX64Framework.framework"; sourceTree = "<group>"; };
 		BD03360022F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BankProviderFrameworkiosX64.framework; path = bankAppFrameworks/bankProviderImpl/iosX64/debugFramework/BankProviderFrameworkiosX64.framework; sourceTree = "<group>"; };
+		BD29B269230487B800EFAB04 /* BankProviderFrameworkiosX64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BankProviderFrameworkiosX64.framework; path = bankAppFrameworks/bankProviderImpl/iosX64/debugFramework/BankProviderFrameworkiosX64.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD03360122F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework in Frameworks */,
+				BD29B26A230487B800EFAB04 /* BankProviderFrameworkiosX64.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				BD03360022F9A1BE0010CC1E /* BankProviderFrameworkiosX64.framework */,
+				BD29B269230487B800EFAB04 /* BankProviderFrameworkiosX64.framework */,
 				BD0335FC22F9A1520010CC1E /* iosX64Framework.framework */,
 				B5713DCA228455FF004F6E86 /* bankApp */,
 				B5713DDF22845601004F6E86 /* bankAppTests */,
@@ -157,7 +159,7 @@
 				B5713DC4228455FF004F6E86 /* Sources */,
 				B5713DC5228455FF004F6E86 /* Frameworks */,
 				B5713DC6228455FF004F6E86 /* Resources */,
-				BD0335FF22F9A1520010CC1E /* Embed Frameworks */,
+				BD29B26C230487B800EFAB04 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
