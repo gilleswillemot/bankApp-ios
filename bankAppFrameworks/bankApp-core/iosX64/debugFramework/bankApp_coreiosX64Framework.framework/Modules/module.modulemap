@@ -1,0 +1,6 @@
+framework module bankApp_coreiosX64Framework {
+    umbrella header "bankApp_coreiosX64Framework.h"
+
+    export *
+    module * { export * }
+}
