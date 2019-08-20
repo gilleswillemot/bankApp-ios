@@ -173,5 +173,11 @@ __attribute__((swift_name("Bank")))
 @property NSString *name __attribute__((swift_name("name")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActualKt")))
+@interface BPFAActualKt : KotlinBase
++ (NSArray<NSString *> *)platformSpecificBankNames __attribute__((swift_name("platformSpecificBankNames()")));
+@end;
+
 #pragma clang diagnostic pop
 NS_ASSUME_NONNULL_END
