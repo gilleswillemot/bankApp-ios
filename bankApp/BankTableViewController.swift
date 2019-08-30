@@ -40,7 +40,7 @@ class BankTableViewController: UITableViewController {
             // Configure the cell...
             let bank = bankProvider.getBanks()[indexPath.row - 1]
             
-            cell.textLabel?.text = bank.name //list[indexPath.row - 1]
+            cell.textLabel?.text = bank.name
             
             return cell
         }
